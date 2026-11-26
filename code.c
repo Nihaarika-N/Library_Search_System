@@ -3,7 +3,7 @@
 #include <string.h>
 
 #define MAXN 1000
-#define MAXLEN 8
+#define MAXLEN 9
 #define MAX_INPUT 100
 
 typedef struct TrieNode {
