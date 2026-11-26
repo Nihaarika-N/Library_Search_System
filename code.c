@@ -290,7 +290,7 @@ int main() {
     if (scanf("%d", &initialN) != 1 ||
         initialN < 0 || initialN > MAXN) {
 
-        printf("Invalid catalog size!\n");
+        printf("Invalid catalog!\n");
 
         freeTrie(prefixRoot);
         freeTrie(suffixRoot);
